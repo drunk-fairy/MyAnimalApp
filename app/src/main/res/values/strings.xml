@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyAnimalApp</string>
+    <string name="main_title">My Animal App</string>
+    <string name="detail_button_text">DETAILS</string>
+
+    <string name="cat_name">Sugar</string>
+    <string name="cat_description">Gray Cat</string>
+    <string name="cat_details">Sugar is a 5 year old male
+        gray cat who loves long naps, head scratches and
+        watching fish in the aquarium. He may seem grumpy
+        at first, but is actually rather sweet. </string>
+
+    <string name="dog_name">Fluffy</string>
+    <string name="dog_description">White Dog</string>
+    <string name="dog_details">Fluffy is a 2 year old female
+        white dog who loves being around her owner, playing with
+        a ball and getting belly rubs. She is really joyful
+        and friendly. </string>
+
+    <string name="bunny_name">Twinkle</string>
+    <string name="bunny_description">Black &amp; white bunny</string>
+    <string name="bunny_details">Twinkle is a 6 months old
+    black-and-white bunny who loves eating carrots,
+    hopping around and chewing on things that are not meant
+    to be chewed.</string>
+
+</resources>

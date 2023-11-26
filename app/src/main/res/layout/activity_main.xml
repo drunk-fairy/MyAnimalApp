@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/main_title_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="start"
+        android:text="@string/main_title"
+        android:textColor="#085e59"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:id="@+id/cat_imageview"
+        android:layout_below="@id/main_title_textview"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/cat_img"
+       />
+
+    <TextView
+        android:id="@+id/cat_name_textview"
+        android:layout_toRightOf="@id/cat_imageview"
+        android:layout_alignTop="@id/cat_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/cat_name"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+       />
+
+    <TextView
+        android:id="@+id/cat_description_textview"
+        android:layout_toRightOf="@id/cat_imageview"
+        android:layout_below="@id/cat_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/cat_description"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/detail_button_text"
+        android:layout_alignTop="@id/cat_imageview"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#085e59"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/dog_imageview"
+        android:layout_below="@id/cat_imageview"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/dog_img"
+        />
+
+    <TextView
+        android:id="@+id/dog_name_textview"
+        android:layout_toRightOf="@id/dog_imageview"
+        android:layout_alignTop="@id/dog_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/dog_name"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/dog_description_textview"
+        android:layout_toRightOf="@id/dog_imageview"
+        android:layout_below="@id/dog_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/dog_description"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/detail_button_text"
+        android:layout_alignTop="@id/dog_imageview"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#085e59"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/bunny_imageview"
+        android:layout_below="@id/dog_imageview"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/bunny_img"
+        />
+
+    <TextView
+        android:id="@+id/bunny_name_textview"
+        android:layout_toRightOf="@id/bunny_imageview"
+        android:layout_alignTop="@id/bunny_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/bunny_name"
+        android:fontFamily="sans-serif-black"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/bunny_description_textview"
+        android:layout_toRightOf="@id/bunny_imageview"
+        android:layout_below="@id/bunny_name_textview"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/bunny_description"
+        android:fontFamily="sans-serif"
+        android:textSize="17sp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="65dp"
+        android:text="@string/detail_button_text"
+        android:layout_alignTop="@id/bunny_imageview"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#085e59"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
+
